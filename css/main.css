@@ -71,6 +71,11 @@ padding: 2em;
   .grid-container{
     grid-template-columns: 1fr 1fr 1fr;
 
+    grid-template-areas:
+      "header header sidebar"
+      "main sidebar "
+      "footer footer";
+
   }
 
   .site-header {
